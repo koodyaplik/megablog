@@ -1,0 +1,7 @@
+megablog_post:
+    resource: "@MegablogBundle/Resources/config/routing/post.yml"
+    prefix:   /post
+
+megablog_homepage:
+    path:     /
+    defaults: { _controller: MegablogBundle:Default:index }
